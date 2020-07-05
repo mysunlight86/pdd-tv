@@ -517,7 +517,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
-<!-- PDD.TV -->
-<script src="dist/js/pages/pddtv.js"></script>
+<!-- page script -->
+<script>
+  $(function () {
+    /* jQueryKnob */
+    $(".dial").knob();
+  });
+</script>
 </body>
 </html>
